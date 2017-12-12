@@ -11,3 +11,6 @@ library(MASS)
 library(car)
 library(faraway)
 library(moments)
+
+metals <- read.csv("sheet1.csv")
+summary(metals)
